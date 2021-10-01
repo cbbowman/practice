@@ -12,15 +12,12 @@ def main():
 def lengthOfLastWord(s):
 
     i = 1
-
     while s[-i] == " ":
         i += 1
     
     length = 1
     i += 1
-
     while i <=  len(s):
-        print([s[-i],i])
         if s[-i] != " ":
             length += 1
             i += 1
